@@ -7,10 +7,17 @@
 ## 🛠 Быстрый старт 
 
 # 1. Подготовка окружения и зависимостей
-sudo apt update && sudo apt install golang -y
-go mod init qbt-hunter
-go get github.com/ethereum/go-ethereum/crypto github.com/tyler-smith/go-bip39
-go mod tidy
+• sudo apt install golang -y
+
+• git clone https://github.com/err0x41/search-for-forgotten-crypto-wallets.git
+
+• cd search-for-forgotten-crypto-wallets
+
+• go mod init search-for-forgotten-crypto-wallets
+
+• go get github.com/ethereum/go-ethereum/crypto github.com/tyler-smith/go-bip39
+
+• go mod tidy
 
 # 2. Компиляция проекта
 go build -o hunter main.go
