@@ -24,6 +24,7 @@ go build -o hunter main.go
 
 # 3. Запуск охотника
 chmod +x hunter
+
 ./hunter
 
 ## ⚙️ Настройка скорости (Тюнинг)
